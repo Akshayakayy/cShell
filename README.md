@@ -1,4 +1,4 @@
-# SHRILL SHELL
+# SH SHELL
 
 
 ## FILES
