@@ -12,8 +12,8 @@
 - remindme.c - reminds user with a custom message after the given number of seconds elapse
 
 ## ADDITIONAL FUNCTIONS
-- setenv var value : SHRILL sets the value of var to value, or to the empty string if value is omitted. Initially, SHRILL inherits environment variables from its parent. Your shell can modify the value of an existing environment variable or create a new environment variable via the setenv command.
-- unsetenv var : SHRILL destroys the environment variable var.
+- setenv var value : cShell sets the value of var to value, or to the empty string if value is omitted. Initially, cShell inherits environment variables from its parent. Your shell can modify the value of an existing environment variable or create a new environment variable via the setenv command.
+- unsetenv var : cShell destroys the environment variable var.
 - jobs : prints a list of all currently running jobs along with their pid, in particular, background jobs, in order of their creation along with their state – Running or Stopped.
 - kjob <jobNumber> <signalNumber> : takes the job id of a running job and sends a signal value to that process.
 - fg <jobNumber> : brings a running or a stopped background job with given job number to foreground.
